@@ -22,6 +22,9 @@ class CheckoutCest
      */
     public function testAddProductToCart(AT $I)
     {
+        //$I->comment('skipped');
+        //return;
+
         $I->am('Customer');
         $I->wantTo('Add product to cart');
         $I->amGoingTo('open category page');
